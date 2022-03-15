@@ -1,0 +1,27 @@
+{
+  "host": "localhost",
+  "port": 3306,
+  "admin": "YOUR ROOT USER IN SQL",
+  "adminpassword": "YOUR ROOT PASSWORD IN SQL",
+  "user": "adrian",
+  "userpassword": "22FUumed",
+  "dropUser": true,
+  "debug": true,
+  "database": "turtledb",
+  "tables": [
+    {
+      "tableName": "turtle",
+      "columns": [
+        "number integer not null primary key",
+        "name varchar(15) not null",
+        "age integer not null",
+        "speed varchar(18) not null",
+        "weightKg integer not null"
+      ],
+      "data": [
+        [5, "Deep Thinker", 2, "ridiculously fast", 10],
+        [4, "Ninja", 200, "fast", 15]
+      ]
+    }
+  ]
+}

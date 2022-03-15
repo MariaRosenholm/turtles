@@ -1,0 +1,8 @@
+{
+  "getAll": "select number, name, age, speed, weightKg from turtle",
+  "get": "select number, name, age, speed, weightKg from turtle where number=?",
+  "insert": "insert into turtle (number, name, age, speed, weightKg) values(?,?,?,?,?)",
+  "update": "update turtle set name=?, age=?, speed=?, weightKg=? where number=?",
+  "remove": "delete from turtle where number=?",
+  "primarykey": "number"
+}

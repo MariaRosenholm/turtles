@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/JS/helperFunctions.js"></script>
+    <script src="/JS/updateHandler.js"></script>
+    <title>Update a turtle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div id="smallMenu">
+        <a href="/"><button>Back to home</button></a>
+        <a href="/pages/allTurtles.html"><button>Get all turtles</button></a>
+        <a href="/pages/oneTurtle.html"><button>Get one turtle</button></a>
+        <a href="/pages/addTurtle.html"><button>Add a turtle</button></a>
+        <a href="/pages/removeTurtle.html"><button>Delete a turtle</button></a>
+      </div>
+      <h1 class="h1Update">Update a turtle</h1>
+      <div id="inputArea">
+        <label
+          >Number of the turtle: <input type="number" id="searchNumber"
+        /></label>
+        <button id="submit">Search</button>
+      </div>
+      <div class="fields">
+        <label>Number: <input type="number" id="number" /></label>
+      </div>
+      <div class="fields">
+        <label>Name: <input type="text" id="name" /></label>
+      </div>
+      <div class="fields">
+        <label>Age: <input type="number" id="age" /></label>
+      </div>
+      <div class="fields">
+        <label>Speed: <input type="text" id="speed" /></label>
+      </div>
+      <div class="fields">
+        <label>Weight in kilograms: <input type="number" id="weight" /></label>
+      </div>
+      <button id="update" class="submit">Update</button>
+      <div id="messageArea"></div>
+    </main>
+  </body>
+</html>
