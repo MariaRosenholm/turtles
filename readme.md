@@ -17,3 +17,11 @@ When you pulled all your files to a your local machine:
 Landing page photo by Karl Ibri https://unsplash.com/@karlibri?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 
 All turtles photo by Will Turner https://unsplash.com/@turner_imagery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+
+## Screenshots
+
+![Screenshot of the application homepage](./screenshots/home.png)
+![Screenshot of the application all turtles](./screenshots/all.png)
+![Screenshot of the application add one page](./screenshots/add.png)
+![Screenshot of the application update page](./screenshots/update.png)
+![Screenshot of the application delete page](./screenshots/remove.png)
